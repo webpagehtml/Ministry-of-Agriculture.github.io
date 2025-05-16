@@ -1,10 +1,10 @@
-/*resets defult setup*/
+*resets defult setup*/
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
-/*explain*/
+/*changes font, adds background img and sets it to cover the page*/
 body {
     font-family:calibri;
     background-image: url('../img/back.png');
@@ -14,7 +14,7 @@ body {
     background-position:center;
     background-size: cover;
 }
-/*explain*/
+/*changes text color to white*/
 header {
     color: white;
     padding: 70px;
@@ -38,7 +38,7 @@ nav ul {
     text-align:center;
     padding-bottom:10px;
 }
-/*explain*/
+/*sets navbar horizontally*/
 nav li {
     display:inline;
 }
@@ -58,27 +58,26 @@ nav li a:hover {
 .active {
     color:#56fc61;
 }
-/*explain*/
+/*edits the sizes of all input stated*/
 input[type=password], [type=text], [type=email]{
     padding:8px 20px;
     border:2px solid #32a85c;
     outline:none;
     width:60%;
 }
-/*explain*/
+/*a custom class to edit register.html only*/
 .formiem {
     width:100%;
     text-align:center;
     background-color: hsla(141 54% 43% / 0.36);
 }
-/*explain*/
+/*edits the sizes of texrarea*/
 textarea{
     width:60%;
     padding:8px 20px;
     border:2px solid #32a85c;
     outline:none;
 }
-/*explain*/
 input[type=submit], input[type=reset]{
     background-color:#32a85c;
     color:white;
@@ -95,33 +94,27 @@ input[type=submit], input[type=reset]{
 #processed {
     text-align:center;
 }
-/*adds padding to gif "pro"*/
+/*adds padding to gif "pro.gif"*/
 #processed img{
     padding:20px;
     height:250px;
     width:250px;
 }
-/*explain*/
 input[type=submit]{
     background-color:#32a85c;
 }
-/*explain*/
 input[type=reset]{
     background-color:#c22739;
 }
-/*explain*/
 input[type=submit]:hover{
     background-color:#278a4b;
 }
-/*explain*/
 input[type=reset]:hover{
     background-color:#9e1c2c;
 }
-/*explain*/
 input[type=radio], [type=checkbox]{
     accent-color:#32a85c;
 }
-/*explain*/
 select {
     width:100%;
     background-color:#32a85c;
@@ -131,35 +124,29 @@ select {
     color: white;
     font-weight: Bold;
 }
-/*explain*/
 label {
     color:#1a5c31;
     margin-right:10px;
     font-weight:bold;
 }
-/*explain*/
 .container-form {
     text-align:center;
     padding-top:50px;
     background-color:white;
 }
-/*explain*/
 .container-form h2{
     color:#32a85c;
     border:none;
 }
-/*explain*/
 .container-form1 {
     padding:80px;
     background-color:#ddf5da;
     text-align:center;
 }
-/*explain*/
 .container-form1 h2{
     color:#32a85c;
     border:none;
 }
-/*explain*/
 .container-form2 {
     margin:5% 30% 5%;
     background-color: hsla(141 71.4% 85.5% / 0.7);
@@ -168,36 +155,30 @@ label {
     width:40%;
     border-radius:10px;
 }
-/*explain*/
 .container-form2 h2{
     background-color:#32a85c;
     border:none;
     padding:10px;
     color:white;
 }
-/*explain*/
 iframe{
     width:100%;
     height:500px;
     border:0px;
     padding:0px;
 }
-/*explain*/
 table{
     width:100%;
 }
-/*explain*/
 table, th, td {
     border:2px solid #32a85c;
     border-collapse:collapse;
     text-align:center;
 }
-/*explain*/
 th {
     background-color:#32a85c;
     color:white;
 }
-/*explain*/
 caption {
     font-size:20px;
     margin-bottom:2px;
@@ -205,16 +186,14 @@ caption {
     border:2px solid #32a85c;
     color:#32a85c;
 }
-/*explain*/
 p{
     font-size:25px;
     margin-right:40%;
 }
-/*explain*/
 hr{
     background-color:#073618;
 }
-/*explain*/
+/*fist section*/
 .fir {
     background-color:#ddf5da;
     margin:0 auto;
@@ -222,32 +201,26 @@ hr{
     grid-template-columns:auto 40%;
     grid-gap:10px;
 }
-/*explain*/
 .fir h2 {
     padding:70px 40px;
     font-size:40px;
     color:#041a01;
     border:0px;
 }
-/*explain*/
 div img{
     width:90%;
 }
-/*explain*/
 div.desc{
     padding:5px;
     text-align:justify;
 }
-/*explain*/
 img.aitem{
     height:100px;
 }
-/*explain*/
 .aitem {
     text-align:center;
     font-size:25px;
 }
-/*explain*/
 .comment{
     margin:0 auto;
     display:grid;
@@ -256,43 +229,36 @@ img.aitem{
     background-color:white;
     grid-gap:20px;
 }
-/*explain*/
 .comment h6 {
     font-size:14px;
     font-weight:normal;
 }
-/*explain*/
 .comment b {
     font-size:20px;
 }
-/*explain*/
 .comment div {
     border: 1px solid gray;
     border-radius:10px;
     padding:10px;
 }
-/*explain*/
 p .comment{
     font-size:16px;
 }
-/*explain*/
 .citem1{
     text-align:center;
     font-size:20px;
     width:260px;
 }
-/*explain*/
 .citem2{
     font-size:20px;
     background-color:#ddf5da;
     width:260px;
 }
-/*explain*/
 #policies {
     font-size:25px;
     font-weight:normal;
 }
-/*explain*/
+/*second section*/
 .sec {
     margin:0 auto;
     display:grid;
@@ -302,7 +268,7 @@ p .comment{
     background-color:white;
     padding-bottom:40px;
 }
-/*explain*/
+/*third section*/
 .trd {
     margin:0 auto;
     display:grid;
@@ -310,11 +276,9 @@ p .comment{
     padding:10px;
     text-align:center;
 }
-/*explain*/
 .fir h2{
     text-align:left;
 }
-/*explain*/
 .trd-w {
     margin:0 auto;
     display:grid;
@@ -322,41 +286,35 @@ p .comment{
     padding:30px;
     background-color:white;
 }
-/*explain*/
 .trd-w img{
     height:400px;
 }
-/*explain*/
 .trd h2 {
     grid-column-start: 1;
     grid-column-end:5;
 }
-/*explain*/
 .trd .aitem{
     text-align:left;
 }
-/*explain*/
 .small{
     font-size:19px;
 }
-/*explain*/
 .aitem p {
     font-size:23px;
 }
-/*explain*/
+/*icon for users who send a comment in contact*/
 .icon {
     width:60px;
     height:60px;
     border-radius:30%;
 }
-/*explain*/
 h2{
     padding:10px 0px 0px 40px;
     font-size:40px;
     color:#041a01;
     border-bottom:3px solid black;
 }
-/*explain*/
+/*fifth section*/
 .fth {
     margin:0 auto;
     display:grid;
@@ -372,48 +330,39 @@ h2{
     grid-auto-rows:260px;
 }
 
-/*explain*/
 .bitem {
     display: grid;
     grid-template-columns:50% 50%;
     grid-template-rows:20% 80%;
 }
-/*explain*/
 .bitem1 {
     grid-column:1;
     grid-column-end:3;
 }
-/*explain*/
 .bitem2 {
     grid-column:1;
 }
-/*explain*/
 .bitem2 img {
     height:300px;
     width:300px;
 }
-/*explain*/
 .container{
     margin:0 auto;
     padding:40px;
     background-color:white;
 }
-/*explain*/
 .containerb{
     background-color:white;
 }
-/*explain*/
 .containerimg{
     padding:150px 50px 170px 50px;
     background-image: url('../img/tree.png');
     color:white;
 }
-/*explain*/
 .greentext {
     color:#1fde42;
     font-size:30px;
 }
-/*explain*/
 .button{
     background-color:#32a85c;
     color:white;
@@ -423,11 +372,9 @@ h2{
     font-weight:bold;
     font-size:14px;
 }
-/*explain*/
 .button:hover{
     background-color:#278a4b;
 }
-/*explain*/
 footer{
     background-color:#32a85c;
     padding:18px 6px;
@@ -435,7 +382,6 @@ footer{
     text-align:center;
     color:white;
 }
-/*explain*/
 footer a{
     color:white;
     text-decoration:none;
